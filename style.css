@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "gilroy";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: purple;
+  color: black;
+  text-align: center;
+  font-size: 26px;
+}
+
+button {
+  padding: 10px 16px;
+  background-color: cyan;
+  border: 1px solid grey;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  width: 15rem;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+p {
+  margin-top: 10px;
+}
